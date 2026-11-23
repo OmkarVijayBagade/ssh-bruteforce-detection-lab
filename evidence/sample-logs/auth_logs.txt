@@ -1,0 +1,50 @@
+2026-11-23T02:37:52.222572+00:00 omkaru sudo: pam_unix(sudo:session): session closed for user root
+2026-11-23T02:38:33.837117+00:00 omkaru sudo: pam_unix(sudo:session): session opened for user root(uid=0) by omkaru(uid=1000)
+2026-11-23T02:38:33.837354+00:00 omkaru sudo: omkaru : TTY=/dev/tty1 ; PWD=/home/omkaru ; USER=root ; COMMAND=/usr/bin/ls -lah /var/log/auth.log
+2026-11-23T02:38:33.843742+00:00 omkaru sudo: pam_unix(sudo:session): session closed for user root
+2026-11-23T03:01:11.645900+00:00 omkaru sshd[1852]: Server listening on 0.0.0.0 port 22.
+2026-11-23T03:01:11.646350+00:00 omkaru sshd[1852]: Server listening on :: port 22.
+2026-11-23T03:01:11.655918+00:00 omkaru sshd-session[1855]: Connection closed by 10.0.1.131 port 39384
+2026-11-23T03:02:08.240251+00:00 omkaru sshd-session[1857]: Accepted password for omkaru from 10.0.1.129 port 36366 ssh2
+2026-11-23T03:02:08.243164+00:00 omkaru sshd-session[1857]: pam_unix(sshd:session): session opened for user omkaru(uid=1000) by omkaru(uid=0)
+2026-11-23T03:02:08.248042+00:00 omkaru systemd-logind[1350]: New session '3' of user 'omkaru' with class 'user' and type 'tty'.
+2026-11-23T03:02:37.741357+00:00 omkaru sshd-session[1857]: syslogin_perform_logout: logout() returned an error
+2026-11-23T03:02:37.741973+00:00 omkaru sshd-session[1915]: Received disconnect from 10.0.1.129 port 36366:11: disconnected by user
+2026-11-23T03:02:37.743094+00:00 omkaru sshd-session[1915]: Disconnected from user omkaru 10.0.1.129 port 36366
+2026-11-23T03:02:37.743236+00:00 omkaru sshd-session[1857]: pam_unix(sshd:session): session closed for user omkaru
+2026-11-23T03:02:37.748658+00:00 omkaru systemd-logind[1350]: Session 3 logged out. Waiting for processes to exit.
+2026-11-23T03:02:37.749756+00:00 omkaru systemd-logind[1350]: Removed session 3.
+2026-11-23T03:03:04.965702+00:00 omkaru sudo: pam_unix(sudo:session): session opened for user root(uid=0) by omkaru(uid=1000)
+2026-11-23T03:03:04.966077+00:00 omkaru sudo: omkaru : TTY=/dev/tty1 ; PWD=/home/omkaru ; USER=root ; COMMAND=/usr/bin/tail -30 /var/log/auth.log
+2026-11-23T03:03:04.980747+00:00 omkaru sudo: pam_unix(sudo:session): session closed for user root
+2026-11-23T03:05:11.442723+00:00 omkaru unix_chkpwd[1978]: password check failed for user (omkaru)
+2026-11-23T03:05:11.443747+00:00 omkaru sshd-session[1976]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.1.129  user=omkaru
+2026-11-23T03:05:13.709892+00:00 omkaru sshd-session[1976]: Failed password for omkaru from 10.0.1.129 port 54372 ssh2
+2026-11-23T03:05:19.157725+00:00 omkaru unix_chkpwd[1979]: password check failed for user (omkaru)
+2026-11-23T03:05:20.984293+00:00 omkaru sshd-session[1976]: Failed password for omkaru from 10.0.1.129 port 54372 ssh2
+2026-11-23T03:05:35.373271+00:00 omkaru sshd-session[1976]: Failed password for omkaru from 10.0.1.129 port 54372 ssh2
+2026-11-23T03:05:35.383013+00:00 omkaru sshd-session[1976]: Connection closed by authenticating user omkaru 10.0.1.129 port 54372 [preauth]
+2026-11-23T03:05:35.383604+00:00 omkaru sshd-session[1976]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.1.129  user=omkaru
+2026-11-23T03:05:40.475404+00:00 omkaru unix_chkpwd[1982]: password check failed for user (omkaru)
+2026-11-23T03:05:40.476188+00:00 omkaru sshd-session[1980]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.1.129  user=omkaru
+2026-11-23T03:05:42.894887+00:00 omkaru sshd-session[1980]: Failed password for omkaru from 10.0.1.129 port 36836 ssh2
+2026-11-23T03:05:45.817742+00:00 omkaru unix_chkpwd[1983]: password check failed for user (omkaru)
+2026-11-23T03:05:48.105235+00:00 omkaru sshd-session[1980]: Failed password for omkaru from 10.0.1.129 port 36836 ssh2
+2026-11-23T03:05:51.436417+00:00 omkaru unix_chkpwd[1984]: password check failed for user (omkaru)
+2026-11-23T03:05:53.185621+00:00 omkaru sshd-session[1980]: Failed password for omkaru from 10.0.1.129 port 36836 ssh2
+2026-11-23T03:05:53.502870+00:00 omkaru sshd-session[1980]: Connection closed by authenticating user omkaru 10.0.1.129 port 36836 [preauth]
+2026-11-23T03:05:53.503423+00:00 omkaru sshd-session[1980]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.1.129  user=omkaru
+2026-11-23T03:05:59.770019+00:00 omkaru sshd-session[1985]: Accepted password for omkaru from 10.0.1.129 port 55328 ssh2
+2026-11-23T03:05:59.770906+00:00 omkaru sshd-session[1985]: pam_unix(sshd:session): session opened for user omkaru(uid=1000) by omkaru(uid=0)
+2026-11-23T03:05:59.775556+00:00 omkaru systemd-logind[1350]: New session '4' of user 'omkaru' with class 'user' and type 'tty'.
+2026-11-23T03:07:12.680608+00:00 omkaru sudo: pam_unix(sudo:session): session opened for user root(uid=0) by omkaru(uid=1000)
+2026-11-23T03:07:12.682345+00:00 omkaru sudo: omkaru : TTY=/dev/tty1 ; PWD=/home/omkaru ; USER=root ; COMMAND=/usr/bin/tail -30 /var/log/auth.log
+2026-11-23T03:07:12.696693+00:00 omkaru sudo: pam_unix(sudo:session): session closed for user root
+2026-11-23T03:08:24.999292+00:00 omkaru sudo: pam_unix(sudo:session): session opened for user root(uid=0) by omkaru(uid=1000)
+2026-11-23T03:08:24.999965+00:00 omkaru sudo: omkaru : TTY=/dev/tty1 ; PWD=/home/omkaru/cyber ; USER=root ; COMMAND=/usr/bin/tail -30 /var/log/auth.log
+2026-11-23T03:08:25.003990+00:00 omkaru sudo: pam_unix(sudo:session): session closed for user root
+2026-11-23T03:09:37.954338+00:00 omkaru sudo: pam_unix(sudo:session): session opened for user root(uid=0) by omkaru(uid=1000)
+2026-11-23T03:09:37.954687+00:00 omkaru sudo: omkaru : TTY=/dev/tty1 ; PWD=/home/omkaru/cyber ; USER=root ; COMMAND=/usr/bin/tail -100 /var/log/auth.log
+2026-11-23T03:09:37.957817+00:00 omkaru sudo: pam_unix(sudo:session): session closed for user root
+2026-11-23T03:09:58.814473+00:00 omkaru sudo: pam_unix(sudo:session): session opened for user root(uid=0) by omkaru(uid=1000)
+2026-11-23T03:09:58.814851+00:00 omkaru sudo: omkaru : TTY=/dev/tty1 ; PWD=/home/omkaru/cyber ; USER=root ; COMMAND=/usr/bin/tail -50 /var/log/auth.log
